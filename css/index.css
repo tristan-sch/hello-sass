@@ -1,42 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap");
-nav ul {
-  width: 40%;
-  width: auto;
-  height: auto;
-  display: flex;
-  justify-content: flex-end;
-  margin: 0.75rem;
-}
-
-nav ul li a {
-  color: black;
-  text-decoration: none;
-  text-align: right;
-  padding: 0 2em 0 0;
-  font-size: 1rem;
-}
-
-nav ul li a:hover {
-  color: #54c7b1;
-}
-
-ul {
-  list-style-type: none;
-}
-
 body {
   font-family: "Poppins", sans-serif;
 }
 
 p {
   color: black;
-}
-
-a {
-  font-size: 1.5rem;
-  color: white;
-  text-decoration: none;
 }
 
 h1 {
@@ -47,7 +16,7 @@ h1 {
 
 h2 {
   color: black;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   margin-top: 0.75rem;
   padding-bottom: 5rem;
   font-family: "Cabin Sketch", sans-serif;
@@ -55,7 +24,7 @@ h2 {
 
 h3 {
   color: #54c7b1;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
@@ -111,9 +80,8 @@ h4 {
   border: 0;
   background: #54c7b1;
   border-radius: 20px;
-  font-size: 2rem;
   padding: 1rem;
-  width: 15%;
+  width: 20%;
   /*nested elements */
 }
 .button .button-link {
@@ -124,4 +92,26 @@ h4 {
 .button .button-link:hover {
   color: black;
   font-family: "Poppins", sans-serif;
+}
+
+nav {
+  /*nested elements */
+}
+nav ul {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.75rem;
+  list-style-type: none;
+}
+nav li a {
+  color: black;
+  text-decoration: none;
+  text-align: right;
+  padding: 0 2em 0 0;
+  font-size: 1rem;
+}
+nav li a:hover {
+  color: #54c7b1;
 }

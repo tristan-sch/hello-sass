@@ -1,30 +1,4 @@
-// nav
 
-nav ul {
-  width: 40%;
-  width: auto;
-  height: auto;
-  display: flex;
-  justify-content: flex-end;
-  margin: $base-margin;
-}
-
-nav ul li a {
-  color: $secondary;
-  text-decoration: none;
-  text-align: right;
-  padding: $nav-padding;
-  font-size: 1rem;
-}
-
-nav ul li a:hover {
-  color: $primary;
-}
-
-
-ul {
-  list-style-type: none;
-}
 
 
 // font styles
@@ -37,24 +11,17 @@ p {
   color: $secondary;
 }
 
-a {
-  font-size: 1.5rem;
-  color: $quadrary;
-  text-decoration: none;
-}
-
-
 
 h1 {
   color: $primary;
   font-family: $cabin;
-  font-size: 3rem;
+  font-size: $font-size-xl;
 }
 
 
 h2 {
   color: $secondary;
-  font-size: 2.5em;
+  font-size: $font-size-lg;
   margin-top: $base-margin;
   padding-bottom:$base-padding;
   font-family: $cabin;
@@ -62,7 +29,7 @@ h2 {
 
 h3 {
   color: $primary;
-  font-size: 1.5em;
+  font-size: $font-size-sm;
   font-weight: normal;
   }
 
